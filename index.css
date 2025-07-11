@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_container div{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border:8px solid black;
+    
+}
+.btn_container{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.btn1{
+    background-color:#d95980;
+}
+.btn2{
+    background-color: #f99b45;
+}
+.btn3{
+    background-color: #63aac0;
+}
+.btn4{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
